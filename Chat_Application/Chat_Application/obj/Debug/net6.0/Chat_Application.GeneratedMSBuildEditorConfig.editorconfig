@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\Project\Realtime_Chat_Application_in_Asp.Net_Core\Chat_Application\Chat_Application
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/Project/Realtime_Chat_Application_in_Asp.Net_Core/Chat_Application/Chat_Application/Views/Home/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Project/Realtime_Chat_Application_in_Asp.Net_Core/Chat_Application/Chat_Application/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
