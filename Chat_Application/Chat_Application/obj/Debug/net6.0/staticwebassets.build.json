@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qr8mxMTFCalnUjXuHi9fylfjOuN/mv5lhYwggEifFdU=",
+  "Hash": "Fkt+y18YC8O7E34SsmMLaQzK78L1aSkFYAzPOD2lyaA=",
   "Source": "Chat_Application",
   "BasePath": "_content/Chat_Application",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\js\\microsoft-signalr\\signalr.js",
+      "SourceId": "Chat_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\",
+      "BasePath": "_content/Chat_Application",
+      "RelativePath": "js/microsoft-signalr/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\microsoft-signalr\\signalr.js"
+    },
+    {
+      "Identity": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\js\\microsoft-signalr\\signalr.min.js",
+      "SourceId": "Chat_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\",
+      "BasePath": "_content/Chat_Application",
+      "RelativePath": "js/microsoft-signalr/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\microsoft-signalr\\signalr.min.js"
     },
     {
       "Identity": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\js\\site.js",

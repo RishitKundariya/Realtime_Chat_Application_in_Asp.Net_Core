@@ -20,12 +20,15 @@ namespace Chat_Application.Models
         public virtual DbSet<Relation> Relations { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
+        public virtual DbSet<UserListModel> UserListModels { get; set; } = null!;
+        public virtual DbSet<ChatModel> ChatModels { get; set; } = null!;
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-3GDVGG9\\SQLEXPRESS;Database=Chat_Application;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-3GDVGG9;Database=Chat_Application;Trusted_Connection=True;");
             }
         }
 
@@ -39,6 +42,10 @@ namespace Chat_Application.Models
                     .HasMaxLength(500)
                     .IsUnicode(false)
                     .HasColumnName("Chat");
+
+                entity.Property(e => e.Timestap)
+                    .HasColumnType("datetime")
+                    .HasColumnName("timestap");
 
                 entity.HasOne(d => d.ReceiveUser)
                     .WithMany(p => p.ChatReceiveUsers)

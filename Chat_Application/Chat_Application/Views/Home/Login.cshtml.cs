@@ -5,8 +5,7 @@ namespace Chat_Application.Views.Home
 {
     public class LoginModel : PageModel
     {
-        public void OnGet()
-        {
-        }
+        public string phonenumber { get; set; }
+        public string password { get; set; }
     }
 }

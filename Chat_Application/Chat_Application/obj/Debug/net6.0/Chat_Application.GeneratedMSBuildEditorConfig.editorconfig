@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Project/Realtime_Chat_Application_in_Asp.Net_Core/Chat_Application/Chat_Application/Views/Shared/_chatScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jaGF0U2NyZWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Project/Realtime_Chat_Application_in_Asp.Net_Core/Chat_Application/Chat_Application/Views/Shared/_chatUserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jaGF0VXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Project/Realtime_Chat_Application_in_Asp.Net_Core/Chat_Application/Chat_Application/Views/Shared/_RegistrationLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3RyYXRpb25MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

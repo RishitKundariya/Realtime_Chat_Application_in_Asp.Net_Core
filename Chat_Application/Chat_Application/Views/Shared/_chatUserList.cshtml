@@ -1,0 +1,16 @@
+﻿@model List<UserListModel>;
+@{
+    foreach (var item in Model)
+    {
+        <div class="row p-2 border LoadChatScreen" value="@item.UserID" onclick="loadChatScreen(@item.UserID)">
+            <div class="col-md-3 col-sm-3">
+                <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
+            </div>
+            <div class="col-md-8 col-sm-8 d-flex" style="align-items: center">
+                <div class="">
+                    <h5 class="card-title"> @item.UserName </h5>
+                </div>
+            </div>
+        </div>
+    }
+}

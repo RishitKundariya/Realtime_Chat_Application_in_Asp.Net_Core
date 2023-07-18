@@ -266,3 +266,4 @@ F:\Project\Realtime_Chat_Application_in_Asp.Net_Core\Chat_Application\Chat_Appli
 F:\Project\Realtime_Chat_Application_in_Asp.Net_Core\Chat_Application\Chat_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 F:\Project\Realtime_Chat_Application_in_Asp.Net_Core\Chat_Application\Chat_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 F:\Project\Realtime_Chat_Application_in_Asp.Net_Core\Chat_Application\Chat_Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Project\Realtime_Chat_Application_in_Asp.Net_Core\Chat_Application\Chat_Application\bin\Debug\net6.0\libman.json

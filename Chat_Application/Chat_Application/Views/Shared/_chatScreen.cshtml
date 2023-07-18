@@ -1,0 +1,45 @@
+﻿@model ChatScreenModel
+<div class="row p-2 ">
+    <div class="col-md-2 col-sm-2">
+        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
+    </div>
+    <div class="col-md-8 col-sm-8 d-flex" style="align-items: center;">
+        <div class="">
+            <h2 class="card-title">@Model.UserName </h2>
+        </div>
+    </div>
+</div>
+<div class="row" style="height:350px">
+    <div class="col-md-12 col-sm-12">
+        @{
+            foreach (var iteam in Model.chats)
+            {
+                if (iteam.Issent == 1)
+                {
+                    <div class="row p-2  m-2">
+                        <div class="col-md-9 col-sm-9 border" style="text-align:left">
+                            @iteam.Chat
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="row p-2  justify-content-end m-2">
+                        <div class="offSet-3 col-md-9 col-sm-9 border" style="text-align:right">
+                            @iteam.Chat
+                        </div>
+                    </div>
+                }
+            }
+        }
+    </div>
+</div>
+<div class="row p-2" style="">
+    <div class="col-md-11">
+        <input type="text" id="txtMessage" class="form-control" />
+    </div>
+    <div class="col-md-1">
+        <button class="btn btn-primary" onclick="SendMessage()" id="btnSend">Send</button>
+    </div>
+</div>
+

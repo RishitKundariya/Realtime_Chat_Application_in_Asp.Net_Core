@@ -1,40 +1,22 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Chat";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div class="container">
     <div class="row">
-        <div class="col-md-3 border-danger p-3">
-            @{
-                for(int i = 0; i < 8; i++)
-                {
-                    <div class="row p-2">
-                        <div class="col-md-3">
-                            <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
-                        </div>
-                        <div class="col-md-8 d-flex" style="align-items: center">
-                            <div class="">
-                                <h3 class="card-title">John Doe</h3>
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
+        <div class="col-md-4 col-sm-4 border-danger p-3" id="userList">
         </div>
-        <div class="col-md-9 border-danger p-3">
-            <div class="row p-2">
-                <div class="col-md-1">
-                    <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
-                </div>
-                <div class="col-md-8 d-flex" style="align-items: center;">
-                    <div class="">
-                        <h1 class="card-title">John Doe</h1>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-8 col-sm-8 p-3" id="userChatScreen">
         </div>
+
     </div>
+      
 </div>
 
+@section Scripts{
+    <script src="~/js/microsoft-signalr/signalr.js"></script>
+    <script src="~/js/microsoft-signalr/signalr.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+}
 

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\js\\microsoft-signalr\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\microsoft-signalr\\signalr.js"
+    },
+    {
+      "Id": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\js\\microsoft-signalr\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\microsoft-signalr\\signalr.min.js"
+    },
+    {
       "Id": "F:\\Project\\Realtime_Chat_Application_in_Asp.Net_Core\\Chat_Application\\Chat_Application\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
